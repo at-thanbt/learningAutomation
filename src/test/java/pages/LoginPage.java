@@ -29,4 +29,7 @@ public class LoginPage{
         inputPassword1.sendKeys(password);
         loginBtn1.click();
     }
+    public void enterUsername(String username){
+
+    }
 }

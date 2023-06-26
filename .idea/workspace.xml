@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed11abc4-d06a-4917-957c-ee3ece2efa8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Common/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/NavigateToOrangHRM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/NavigateToWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Common/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigateToOrangHRM.navigatetoWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeaningAutomationSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NavigateToOrangHRM" />
+      <option name="METHOD_NAME" value="navigatetoWeb" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NavigateToWeb" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeaningAutomationSelenium" />
       <extension name="coverage">
@@ -120,30 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeaningAutomationSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.NavigationPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Login.loginAccount" />
+        <item itemvalue="TestNG.NavigateToOrangHRM.navigatetoWeb" />
         <item itemvalue="TestNG.NavigateToWeb.navigateToWeb" />
         <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.NavigateToWeb" />
-        <item itemvalue="TestNG.NavigationPage" />
       </list>
     </recent_temporary>
   </component>

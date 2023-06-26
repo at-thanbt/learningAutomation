@@ -21,10 +21,10 @@ public class BaseStep {
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         js = (JavascriptExecutor) driver;
     }
-    public void tearDown(WebDriver driver) {
+    @AfterClass
+    public void tearDown() {
         driver.close();
         driver.quit();
     }
