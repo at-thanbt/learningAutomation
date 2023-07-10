@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPage{
     private WebDriver driver;
-    public String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     @FindBy(xpath="//input[@name='username']")
     private WebElement inputUsername1;
 
@@ -18,6 +18,9 @@ public class LoginPage{
 
     @FindBy(xpath="//button[@type='submit']")
     private WebElement loginBtn1;
+
+    @FindBy(xpath ="//div[@class='oxd-brand-banner']")
+    private WebElement logo;
 
     public LoginPage(WebDriver driver){
         this.driver = driver;
@@ -29,7 +32,7 @@ public class LoginPage{
         inputPassword1.sendKeys(password);
         loginBtn1.click();
     }
-    public void enterUsername(String username){
-
+    public boolean logoIsDisplayed(){
+        return logo.isDisplayed();
     }
 }
