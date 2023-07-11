@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed11abc4-d06a-4917-957c-ee3ece2efa8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/NavigateToAdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/VerifyAccountName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Common/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/NavigateToOrangHRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/NavigateToOrangHRM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +48,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.NavigateToAdminPage">
-    <configuration name="D:/seleniumExample/LeaningAutomationSelenium/src/test/java/tests/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeaningAutomationSelenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeaningAutomationSelenium" />
       <extension name="coverage">
@@ -114,6 +99,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigateToOrangHRM.navigateToWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeaningAutomationSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NavigateToOrangHRM" />
+      <option name="METHOD_NAME" value="navigateToWeb" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifyAccountName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeaningAutomationSelenium" />
       <extension name="coverage">
@@ -134,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.NavigateToAdminPage" />
-        <item itemvalue="TestNG.VerifyAccountName" />
-        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.NavigateToOrangHRM" />
-        <item itemvalue="TestNG.D:/seleniumExample/LeaningAutomationSelenium/src/test/java/tests/test.xml" />
+        <item itemvalue="TestNG.NavigateToOrangHRM.navigateToWeb" />
+        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.VerifyAccountName" />
       </list>
     </recent_temporary>
   </component>
