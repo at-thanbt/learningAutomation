@@ -9,22 +9,24 @@ import org.openqa.selenium.support.PageFactory;
 public class AccountPage {
     private WebDriver driver;
 
-    public AccountPage(WebDriver driver){
+    public AccountPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath="//p[@class='oxd-userdropdown-name']")
+
+    @FindBy(xpath = "//p[@class='oxd-userdropdown-name']")
     private WebElement accountName;
 
-    @FindBy(xpath="//span[text() = 'Admin']")
+    @FindBy(xpath = "//span[text() = 'Admin']")
     private WebElement adminLbl;
 
-    public void getAccountName(){
+    public void getAccountName() {
         String name = accountName.getText();
-        System.out.println("Account name is: " +name+ "");
+        System.out.println("Account name is: " + name + "");
         Helper.delay(5);
     }
-    public void navigateToAdminPage(){
+
+    public void navigateToAdminPage() {
         adminLbl.click();
         Helper.delay(5);
     }

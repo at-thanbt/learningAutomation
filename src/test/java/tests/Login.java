@@ -3,8 +3,6 @@ package tests;
 import Common.BaseStep;
 import Common.Helper;
 import data.param;
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 

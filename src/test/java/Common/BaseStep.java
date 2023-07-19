@@ -1,32 +1,32 @@
 package Common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.github.bonigarcia.wdm.managers.OperaDriverManager;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
 public class BaseStep {
 
-    public  WebDriver driver;
+    public WebDriver driver;
+
     @BeforeClass
-    public void createBrowser(){
+    public void createBrowser() {
         setUpDriver("chrome");
     }
+
     @AfterClass
     public void tearDown() {
         driver.close();
         driver.quit();
     }
-    public WebDriver setUpDriver(String browserType){
-        switch (browserType){
+
+    public WebDriver setUpDriver(String browserType) {
+        switch (browserType) {
             case "chrome":
                 driver = initChromeDriver();
                 break;
@@ -37,7 +37,7 @@ public class BaseStep {
                 driver = initEdgeDriver();
                 break;
             default:
-                System.out.println("Browser: " +browserType+ "is invalid, launching chrome as browser of choice");
+                System.out.println("Browser: " + browserType + "is invalid, launching chrome as browser of choice");
                 driver = initChromeDriver();
         }
         return driver;
@@ -56,7 +56,7 @@ public class BaseStep {
     private WebDriver initFirefoxDriver() {
         System.out.println("Launching Firefox browser...");
         WebDriverManager.firefoxdriver().setup();
-        driver=new FirefoxDriver();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -66,7 +66,7 @@ public class BaseStep {
     private WebDriver initChromeDriver() {
         System.out.println("Launching Chrome browser...");
         WebDriverManager.chromedriver().setup();
-        driver=new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(50));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

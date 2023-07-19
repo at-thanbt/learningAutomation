@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed11abc4-d06a-4917-957c-ee3ece2efa8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Common/ValidateHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Common/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/NavigateToOrangHRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/NavigateToOrangHRM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/seleniumExample/LeaningAutomationSelenium/src/test/java/tests",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.23448277",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/seleniumExample/LeaningAutomationSelenium/src/test/java/tests&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23448277&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.NavigateToAdminPage">
+}</component>
+  <component name="RunManager" selected="TestNG.Login.loginAccount">
     <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeaningAutomationSelenium" />
       <extension name="coverage">
@@ -59,6 +61,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Login" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.loginAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeaningAutomationSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Login" />
+      <option name="METHOD_NAME" value="loginAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,30 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyAccountName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeaningAutomationSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.VerifyAccountName" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login.loginAccount" />
         <item itemvalue="TestNG.NavigateToAdminPage" />
         <item itemvalue="TestNG.NavigateToOrangHRM" />
         <item itemvalue="TestNG.NavigateToOrangHRM.navigateToWeb" />
         <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.VerifyAccountName" />
       </list>
     </recent_temporary>
   </component>
